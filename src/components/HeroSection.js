@@ -3,29 +3,25 @@ import React from 'react';
 import { Button } from './Button';
 import './HeroSection.css';
 import '../App.css';
+import { Link } from 'react-router-dom';
 
 function HeroSection() {
     return (
       <div className='hero-container'>
-        <video src='/videos/video-1.mp4' autoPlay loop muted />
-        <h1>Hi, I'm Alejandra</h1>
-        <p>What are you waiting for?</p>
+        <video src='/videos/portfolio-background.mp4' autoPlay loop muted />
+        <h1>Hi, I'm Alejandra.</h1>
+        <p>Full-Stack Software Engineer</p>
         <div className='hero-btns'>
+        <Link to='/portfolio'>
           <Button
             className='btns'
             buttonStyle='btn--outline'
             buttonSize='btn--large'
+            
           >
-            GET STARTED
+            Check Out My Work
           </Button>
-          <Button
-            className='btns'
-            buttonStyle='btn--primary'
-            buttonSize='btn--large'
-            onClick={console.log('hey')}
-          >
-            WATCH TRAILER <i className='far fa-play-circle' />
-          </Button>
+        </Link>
         </div>
     </div>
   );
