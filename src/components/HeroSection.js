@@ -11,6 +11,7 @@ function HeroSection() {
         <video src='/videos/portfolio-background.mp4' autoPlay loop muted />
         <h1>Hi, I'm Alejandra.</h1>
         <p>Full-Stack Software Engineer</p>
+        <img className="img-fluid col-md-10 rounded-circle" src="https://i.imgur.com/dDYtvDa.png" alt="alejandra image" id="profile-pic"></img>
         <div className='hero-btns'>
         <Link to='/portfolio'>
           <Button

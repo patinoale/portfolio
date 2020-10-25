@@ -44,3 +44,34 @@
   color: white;
   font-size: 100px;
 }
+
+
+.card-body {
+  margin-top: 50px;
+  margin-bottom: 50px;   
+}
+
+
+#form-card {
+   margin-top: -50px;
+   margin-bottom: 0px;
+}
+
+#about-form-card {
+   margin-top: -25px;
+   margin-bottom: 0px;
+}
+
+#social-icons {
+   font-size: 30px;
+}
+
+
+#profile-pic {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+   height: 300px;
+   width: auto;
+}
